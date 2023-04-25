@@ -1,7 +1,10 @@
 package com.hdfc.foo
 
-class Utilities {
-  static def mvn(script, args) {
-    script.sh "${script.tool 'Maven'}/bin/mvn -s ${script.env.HOME}/jenkins.xml -o ${args}"
-  }
-}
+    def info(message) {
+        echo "INFO: ${message}"
+    }
+
+    def warning(message) {
+        echo "WARNING: ${message}"
+    }
+    static void main(args) {}
