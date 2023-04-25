@@ -1,6 +1,6 @@
 package com.hdfc
 
-class Demo {
+class demo {
 
     def info(message) {
         echo "INFO: ${message}"
