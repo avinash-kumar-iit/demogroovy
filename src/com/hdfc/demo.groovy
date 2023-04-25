@@ -1,6 +1,15 @@
 package com.hdfc
 
 class Demo {
+
+    def info(message) {
+        echo "INFO: ${message}"
+    }
+
+    def warning(message) {
+        echo "WARNING: ${message}"
+    }
+
     static void main(args) {
         println 'Welcome to Javatpoint tutorial on Groovy...'
 
@@ -16,4 +25,5 @@ This is line 5'''
         println s5
 
     }
+	
 }
